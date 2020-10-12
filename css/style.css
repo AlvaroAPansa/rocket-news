@@ -52,7 +52,7 @@ strong {
 p {
     margin-top: 19px;
     margin-bottom: 0px;
-    width: 591px;
+    width: 592px;
     color: #404040;
     font-size: 16px;
     font-stretch: 100%;
@@ -69,6 +69,11 @@ h2 {
     font-stretch: 100%;
     font-weight: 400;
     line-height: 28px;
+}
+
+footer {
+    padding-bottom: 68px;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 .first-p {
@@ -112,7 +117,7 @@ h2 {
     text-decoration-line: none;
     line-height: 16px;
     color: #000;
-    margin-top: 4px;
+    margin-top: 16px; /*estaba en 4px para que el header quede bien*/
     margin-right: 16px;
     margin-bottom: 4px;
     border: solid 1px #d2d2d2;
@@ -161,11 +166,11 @@ a.link-button:hover {
     text-decoration: none;
 }
 
-/*.clock {
-    background-image: url(images/icons.png);
-    background-position: left -4011px;
-    background-repeat: no-repeat;
-    color: #5a5a5a;
-    margin-left: -10px;
-    padding-left: 28px;
-}*/
+a.paragraph-link:hover{
+    color: #1167a8;
+}
+
+.separation-line {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 16px;
+}
