@@ -7,4 +7,4 @@ Week 1 link:
 https://www.bbc.com/news/world-africa-54337607  
 
 Week 2 link:  
-https://www.bbc.com/news/topics/cvenzmgyg0lt/microsoft 
+https://www.bbc.com/news/business-54482245

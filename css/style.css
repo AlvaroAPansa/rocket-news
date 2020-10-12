@@ -1,14 +1,14 @@
 body {
     width: 800px;
-    font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif; /*ReithSerif custom font for BBC, can it be replicated*/
-    margin-top: 197px;  /*Magins to position the article equal to the original site*/
+    font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
+    /*No pude descargar la fuente custom de la BBC (ReithSans) así que para comparar borre la fuente dejando Helvetica. Hay forma de descargarla?*/
+    margin-top: 197px;  /*Margins to position the article equal to the original site*/
     margin-left: 50.5px;
-    vertical-align: baseline;
 }
 
 header {
-    border-bottom: 1px solid #dbdbdb;
-    padding-bottom: 81px;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 47px;
 }
 
 h1 {
@@ -27,47 +27,40 @@ strong.author {
     font-weight: 500;
     margin-top: 16px;
     color: #3f3f42;
-    line-height: 16px;
 }
 
 span.sub-author{
     font-size: 13px;
     font-weight: 400;
-    line-height: 16px;
     color: #696969;
-    line-height: 16px;
 }
 
 .date {
-    margin-top: 20px;
+    margin-top: 11px;
     padding-left: 16px;
-    font-size: 13px;
-    font-weight: 400;
 }
 
 #dateul {
     padding-left: 0px;
+    margin: 0px;
 }
 
 #dateli {
-    position: relative;
     list-style-type: none;
+    font-size: 13px;
     padding-left: 0px;
+    margin-top: 0px;
     color: #5a5a5a;
 }
 
 .link-button {
-    position: static;
-    display: inline-block;
     float: left;
     font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    text-decoration: solid;
     text-decoration-line: none;
-    line-height: 16px;
     color: #3f3f42;
-    margin-top: 16px; /*estaba en 4px para que el header quede bien*/
+    margin-top: 13px;
     margin-right: 16px;
     margin-bottom: 4px;
     border: 1px solid #DB7F7F;
@@ -83,6 +76,7 @@ figure.first-img {
     height: 533px;
     width: 800px;
     margin-left: 0px;
+    margin-bottom: 24px;
 }
 
 .img-container {
@@ -96,11 +90,7 @@ figure.first-img {
     right: 0px;
     color: #ececec;
     font-size: 14px;
-    font-stretch: 100%;
-    text-size-adjust: 100%;
-    line-height: 18px;
     letter-spacing: 0.25px;
-    font-weight: 400;
     padding-top: 4px;
     padding-right: 8px;
     padding-bottom: 4px;
@@ -108,7 +98,7 @@ figure.first-img {
 }
 
 img {
-    vertical-align: bottom;
+    vertical-align: bottom;/*Para eliminar el pixel de más que tienen las img abajo*/
 }
 
 strong.first-p {
@@ -124,7 +114,6 @@ div.width-only {
 
 p {
     font-size: 16px;
-    font-weight: 400;
     line-height: 22px;
     color: #3f3f42;
     margin-bottom: 16px;
@@ -134,8 +123,6 @@ p {
 img.img-size {
     height: 450px;
     width: 800px;
-    margin-left: 0px;
-    padding-left: 0px;
 }
 
 figcaption {
@@ -143,14 +130,13 @@ figcaption {
     color: #eeeeee;
     padding: 16px;    
     font-size: 14px;
-    font-stretch: 100%;
-    font-weight: 400;
     line-height: 18px;
-    text-size-adjust: 100%;
 }
 
 figure {
-    margin: 0px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 h2 {
@@ -174,7 +160,6 @@ ul {
 
 li {
     color: #3f3f42;
-    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     margin-top: 16px;
@@ -184,4 +169,28 @@ li {
     border-top: 2px solid #B80000;
     border-bottom: 2px solid #B80000;
     padding-bottom: 60px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+
+.paragraph-link {
+    font-size: 1rem;
+    line-height: 1.375;
+    border-bottom: 1px solid #dcdcdc;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.paragraph-link:hover{
+    color: #b80000;
+    border-bottom: 2px solid #b80000;
+}
+
+a.paragraph-link:visited{
+    color: #696969;
 }
