@@ -1,7 +1,7 @@
 body {
     width: 645.330px;
     font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
-    margin-top: 481.255px;  /*Magins to position the article equal to the original site (322.5)*/
+    margin-top: 321px;  /*Magins to position the article equal to the original site (321)*/
     margin-left: 261.441px; /*margin-top can change due to the changing height of the publicity banner*/
     vertical-align: baseline;
 }
@@ -150,6 +150,15 @@ a.link-button:hover {
     padding-right: 8px;
     padding-bottom: 1px;
     padding-left: 8px;
+}
+
+.paragraph-link {
+    font-size: 1rem;
+    line-height: 1.375;
+    border-bottom: 1px solid #dcdcdc;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 /*.clock {
