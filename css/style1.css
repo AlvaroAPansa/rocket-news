@@ -1,0 +1,187 @@
+body {
+    width: 800px;
+    font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif; /*ReithSerif custom font for BBC, can it be replicated*/
+    margin-top: 197px;  /*Magins to position the article equal to the original site*/
+    margin-left: 50.5px;
+    vertical-align: baseline;
+}
+
+header {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 81px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 500;
+    font-stretch: 100%;
+    text-size-adjust: 100%;
+    color: #3f3f42;
+    line-height: 48px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+
+strong.author {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 16px;
+    color: #3f3f42;
+    line-height: 16px;
+}
+
+span.sub-author{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #696969;
+    line-height: 16px;
+}
+
+.date {
+    margin-top: 20px;
+    padding-left: 16px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#dateul {
+    padding-left: 0px;
+}
+
+#dateli {
+    position: relative;
+    list-style-type: none;
+    padding-left: 0px;
+    color: #5a5a5a;
+}
+
+.link-button {
+    position: static;
+    display: inline-block;
+    float: left;
+    font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: solid;
+    text-decoration-line: none;
+    line-height: 16px;
+    color: #3f3f42;
+    margin-top: 16px; /*estaba en 4px para que el header quede bien*/
+    margin-right: 16px;
+    margin-bottom: 4px;
+    border: 1px solid #DB7F7F;
+    padding: 8px;
+}
+
+a.link-button:hover {
+    background-color: #d80000;
+    color: #fff;
+}
+
+figure.first-img {
+    height: 533px;
+    width: 800px;
+    margin-left: 0px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-copy {
+    background-color: #3f3f42;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #ececec;
+    font-size: 14px;
+    font-stretch: 100%;
+    text-size-adjust: 100%;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+strong.first-p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #3f3f42;
+}
+
+div.width-only {
+    width: 580px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3f3f42;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+img.img-size {
+    height: 450px;
+    width: 800px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+figcaption {
+    background-color: #3f3f42;
+    color: #eeeeee;
+    padding: 16px;    
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 400;
+    line-height: 18px;
+    text-size-adjust: 100%;
+}
+
+figure {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #3f3f42;
+}
+
+.separation-line {
+    border-bottom: 2.5px solid #dbdbdb;
+    padding-bottom: 16px;
+}
+
+p.bold-text {
+    font-weight: 700;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+li {
+    color: #3f3f42;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 16px;
+}
+
+.related-topics-box {
+    border-top: 2px solid #B80000;
+    border-bottom: 2px solid #B80000;
+    padding-bottom: 60px;
+}
